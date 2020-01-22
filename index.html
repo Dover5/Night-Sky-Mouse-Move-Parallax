@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dover</title>
+  
+      <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body>
+  <div class="wrapper">
+  <div class="clippy-wrap">
+    <div class="star-container" id="star-cont">
+      <div class="star" id="mr_star"></div>
+    </div></div>
+  <script src="js/jquery.min.js"></script>
+    <script  src="js/index2.js"></script>
+    <div class="layer-1"></div>
+  <div class="layer-2"><img class="anim" src="img/BF5.jpg"></div>
+  <div class="layer-4">
+  <svg width="2300" height="1700" viewBox="0 0 1150 100">
+  
+  <path id="motionPath" fill="none" stroke-miterlimit="10" d="M200,100Q150,-200,1610,-180"/>
+  
+  <g id="sun" transform="translate(-100, -200)">
+  <image class="blink" xlink:href="img/123.gif" width="4" height="400">
+</image>
+</g>
+   
+  <animateMotion 
+           xlink:href="#sun"
+           dur="160s"
+           begin="0s"
+           fill="freeze"
+           repeatCount="indefinite"           
+             >
+    <mpath xlink:href="#motionPath" />
+  </animateMotion>
+</svg>
+  </div>
+  <div class="layer-5"></div>
+  <div class="layer-6"></div>
+  <div class="layer-7"></div>
+  <div class="layer-8"></div>
+  <div class="layer-9"></div>
+  <div class="layer-3"></div>
+</div>
+  
+
+    <script  src="js/index.js"></script>
+
+
+</body>
+
+</html>
